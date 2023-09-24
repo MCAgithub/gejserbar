@@ -77624,7 +77624,7 @@ p=A.a_j(new A.fm(o))
 p=p.gic(p).a.c.a.b
 p.toString
 s=t.E
-p=A.jH(A.arN(A.b([A.fL(p,q,q,q,q,q,q),new A.L0(q),A.arb(A.fL("Log ud",q,q,q,A.U(a).p3.y,q,q),new A.adW(this))],s),B.co,B.iJ,B.f4),q,q)
+p=A.jH(A.arN(A.b([A.fL(p,q,q,q,q,q,q),new A.L0(q),A.arb(A.fL("Log out",q,q,q,A.U(a).p3.y,q,q),new A.adW(this))],s),B.co,B.iJ,B.f4),q,q)
 r=A.cY(q,q,B.j,q,q,q,q,q,q,q,q,20,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)
 return A.arQ(new A.uI(p,B.kZ,new A.QU(q,q,1/0,56),r,q),B.kZ,A.jH(A.Xn(A.b([new A.EW(B.ap,new A.qo(new A.qN(this.e),B.yu,q),q)],s),B.co,B.iJ,B.f4),q,q))},
 d3(a){var s=0,r=A.O(t.z),q=1,p,o,n,m,l,k
@@ -77691,7 +77691,7 @@ return A.arQ(null,null,new A.zf(new A.aeP(),s.a5s(s.gpM().ib()),null,t.fZ))}}
 A.aeP.prototype={
 $2(a,b){var s=null
 if(b.a===B.l9)return A.jH(new A.v6(s,s,s,s,s,s,s),s,s)
-else if(b.c!=null)return A.jH(A.fL("Fejl",s,s,s,s,s,s),s,s)
+else if(b.c!=null)return A.jH(A.fL("Error",s,s,s,s,s,s),s,s)
 else if(b.b!=null)return new A.wm(s)
 else return new A.x3(s)},
 $S:472}
@@ -77706,9 +77706,9 @@ s.R$=r
 s.N$=0
 this.aJ()},
 L(a){var s,r=this,q=null,p=A.aDi(q,q,new A.uP("asset/images/gejserbarlogo3.jpg",q,q)),o=r.f
-o=A.j5(A.asl(r.d,A.alL(q,new A.h5(4,B.ch,B.hl),q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,A.cY(q,q,B.rg,q,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),o,q,q,"",q,q,q,q,!1,q,q,q,"Bruger Navn",q,q,q,q,q,q,q,q,q,q,q,q,q),!1),q,400)
+o=A.j5(A.asl(r.d,A.alL(q,new A.h5(4,B.ch,B.hl),q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,A.cY(q,q,B.rg,q,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),o,q,q,"",q,q,q,q,!1,q,q,q,"Email",q,q,q,q,q,q,q,q,q,q,q,q,q),!1),q,400)
 s=r.r
-return A.jH(A.Xn(A.b([new A.F1(new A.qo(p,q,q),B.l,120,q),new A.dM(B.lv,o,q),new A.dM(B.lv,A.j5(A.asl(r.e,A.alL(q,new A.h5(4,B.ch,B.hl),q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,A.cY(q,q,B.rg,q,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),s,q,q,"",q,q,q,q,!1,q,q,q,"Adgangskode",q,q,q,q,q,q,q,q,q,q,q,q,q),!0),q,400),q),A.amv(A.fL("Glemt adgangskode",q,q,q,q,q,q),new A.aeQ(),q),A.arb(A.fL("Login",q,q,q,A.U(a).p3.y,q,q),new A.aeR(r))],t.E),B.co,B.iJ,B.f4),q,q)},
+return A.jH(A.Xn(A.b([new A.F1(new A.qo(p,q,q),B.l,120,q),new A.dM(B.lv,o,q),new A.dM(B.lv,A.j5(A.asl(r.e,A.alL(q,new A.h5(4,B.ch,B.hl),q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,A.cY(q,q,B.rg,q,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),s,q,q,"",q,q,q,q,!1,q,q,q,"Password",q,q,q,q,q,q,q,q,q,q,q,q,q),!0),q,400),q),A.amv(A.fL("Forgot password",q,q,q,q,q,q),new A.aeQ(),q),A.arb(A.fL("Login",q,q,q,A.U(a).p3.y,q,q),new A.aeR(r))],t.E),B.co,B.iJ,B.f4),q,q)},
 u2(){var s=0,r=A.O(t.z),q=1,p,o=this,n,m,l,k,j
 var $async$u2=A.J(function(a,b){if(a===1){p=b
 s=q}while(true)switch(s){case 0:q=3
@@ -77749,16 +77749,16 @@ $0(){var s=this.a
 s.r=s.f=""},
 $S:0}
 A.aeT.prototype={
-$0(){this.a.f="brugeren findes ikke"},
+$0(){this.a.f="That user does not exist"},
 $S:0}
 A.aeU.prototype={
-$0(){this.a.r="skriv venlist din adgangskode"},
+$0(){this.a.r="please type your password"},
 $S:0}
 A.aeV.prototype={
-$0(){this.a.r="forkert adgangskode"},
+$0(){this.a.r="wrong password"},
 $S:0}
 A.aeW.prototype={
-$0(){this.a.f="For mange forkerte fors\xf8g pr\xf8v igen om 60 sekunder"},
+$0(){this.a.f="Too many login attempts, try again in 60 seconds"},
 $S:0}
 A.aeX.prototype={
 $1(a){return a.gEI()},
