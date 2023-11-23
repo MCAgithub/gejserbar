@@ -26936,7 +26936,7 @@ a1Y:function a1Y(){},
 a1X:function a1X(){},
 a2_:function a2_(){},
 a1Z:function a1Z(){},
-aAt(a){return new A.eo(a.h(0,"id"),a.h(0,"email"),a.h(0,"experationdate"),a.h(0,"name"))},
+aAt(a){return new A.eo(a.h(0,"id"),a.h(0,"email"),a.h(0,"expirationdate"),a.h(0,"name"))},
 eo:function eo(a,b,c,d){var _=this
 _.a=a
 _.b=b
@@ -88216,14 +88216,14 @@ o=(p==null?$.bk=$.d9():p).dk(0,"[DEFAULT]")
 A.bC(o,$.cY(),!0)
 p=A.oZ(new A.cr(o))
 q=A.qP(p,p.gex().kR("GoldCardHolder")).hB(0,b)
-p=A.awJ(A.aF(["email",a.b,"experationdate",a.c,"name",a.d],t.N,t.z))
+p=A.awJ(A.aF(["email",a.b,"expirationdate",a.c,"name",a.d],t.N,t.z))
 p.toString
 s=2
 return A.S(q.a.b0(0,p),$async$C6)
 case 2:return A.M(null,r)}})
 return A.N($async$C6,r)}}
 A.aiy.prototype={
-$2(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=null,c="Experation Date"
+$2(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=null,c="Expiration Date"
 if(b.c!=null)return A.c4("Database Error "+b.k(0),d,d,d,d,d,d)
 else{s=b.b
 if(s!=null){r=this.a
@@ -88255,7 +88255,7 @@ f=A.dY(A.b([A.cw(A.ag7(!1,r.dx,A.pn(d,new A.d5(4,B.an,new A.az(q.ax.b,1,B.r,-1))
 e=A.A(a)
 i=A.A(a)
 q=A.A(a)
-return A.pb(d,A.awb(p,B.l,A.dY(A.b([new A.Cr(B.G4,n,d),A.cw(new A.Cs(k,A.b([j,h,A.dY(A.b([B.c5,g,B.c5,A.hT(A.b([f,B.MR,A.dY(A.b([A.cw(A.ag7(!1,r.dy,A.pn(d,new A.d5(4,B.an,new A.az(e.ax.b,1,B.r,-1)),d,d,d,d,d,d,!0,new A.d5(4,B.an,new A.az(i.ax.b,1,B.r,-1)),d,new A.d5(4,B.an,new A.az(A.A(a).ax.b,1,B.r,-1)),d,d,d,d,d,B.cL,d,d,d,new A.d5(4,B.an,new A.az(q.ax.b,1,B.r,-1)),d,d,B.hD,"",d,d,d,d,d,d,d,!1,d,d,A.A(a).p3.y,"Discount untill",d,d,d,d,d,d,d,d,d,d,d,d,d),d,d,d,d,d,d,d,B.c9,new A.aim()),80,150),A.Ao(B.yR,new A.ain(r),A.Aq(d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,B.dx,d,d,d,d))],o),B.W,B.P,B.a_)],o),B.W,B.ei,B.a_)],o),B.W,B.P,B.a_)],o),d),l.a.b/1.5,m.a.a)],o),B.W,B.P,B.a_),!1,A.aAf(B.yT,new A.aio(a)),B.lN),B.a8,!1,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,new A.aip(r),d,d,d,d,d,d)}else return B.lS}},
+return A.pb(d,A.awb(p,B.l,A.dY(A.b([new A.Cr(B.G4,n,d),A.cw(new A.Cs(k,A.b([j,h,A.dY(A.b([B.c5,g,B.c5,A.hT(A.b([f,B.MR,A.dY(A.b([A.cw(A.ag7(!1,r.dy,A.pn(d,new A.d5(4,B.an,new A.az(e.ax.b,1,B.r,-1)),d,d,d,d,d,d,!0,new A.d5(4,B.an,new A.az(i.ax.b,1,B.r,-1)),d,new A.d5(4,B.an,new A.az(A.A(a).ax.b,1,B.r,-1)),d,d,d,d,d,B.cL,d,d,d,new A.d5(4,B.an,new A.az(q.ax.b,1,B.r,-1)),d,d,B.hD,"",d,d,d,d,d,d,d,!1,d,d,A.A(a).p3.y,"Discount until",d,d,d,d,d,d,d,d,d,d,d,d,d),d,d,d,d,d,d,d,B.c9,new A.aim()),80,150),A.Ao(B.yR,new A.ain(r),A.Aq(d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,B.dx,d,d,d,d))],o),B.W,B.P,B.a_)],o),B.W,B.ei,B.a_)],o),B.W,B.P,B.a_)],o),d),l.a.b/1.5,m.a.a)],o),B.W,B.P,B.a_),!1,A.aAf(B.yT,new A.aio(a)),B.lN),B.a8,!1,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,new A.aip(r),d,d,d,d,d,d)}else return B.lS}},
 $S:117}
 A.aid.prototype={
 $1(a){return B.d.p(a.b.toLowerCase(),this.a.at.a.a.toLowerCase())},
@@ -88474,7 +88474,7 @@ return A.aAt(s)},
 $S:180}
 A.eo.prototype={
 hR(){var s=this
-return A.aF(["id",s.a,"email",s.b,"experationdate",s.c,"name",s.d],t.N,t.z)}}
+return A.aF(["id",s.a,"email",s.b,"expirationdate",s.c,"name",s.d],t.N,t.z)}}
 A.mW.prototype={
 af(){return new A.Tf(B.i)}}
 A.Tf.prototype={
@@ -88536,11 +88536,11 @@ q=t.p
 p=A.ayX(B.w,A.eA(A.hT(A.b([B.eR,new A.Ks(new A.amg(s),k,k,k,A.xy(k,k,new A.bn(B.l,t.h9),k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k),B.q,k,!1,k,!0,A.c4("Log out",k,k,k,A.A(a).p3.y,k,k),k)],q),B.W,B.ei,B.a_),k,k),B.yQ)
 o=A.dZ(k,k,B.q,k,k,B.Ab,k,k,k,k,k,k,k)
 n=A.eA(A.dZ(k,k,B.q,k,k,k,B.Ac,480,k,k,k,k,325),k,k)
-s=A.c4(A.i(s.d)+"% OFF ALL DRINKS UNTILL "+A.i(s.e),k,k,k,k,k,k)
+s=A.c4(A.i(s.d)+"% OFF ALL DRINKS UNTIL "+A.i(s.e),k,k,k,k,k,k)
 m=r.d
-m=A.hT(A.b([B.yo,B.MW,B.MT,A.cw(A.c4(m.length>14?B.b.aP(A.b(m.split(" "),t.s),"\n"):m,k,k,k,k,k,k),k,k)],q),B.W,B.P,B.a_)
+m=A.hT(A.b([B.yo,B.MV,B.MT,A.cw(A.c4(m.length>14?B.b.aP(A.b(m.split(" "),t.s),"\n"):m,k,k,k,k,k,k),k,k)],q),B.W,B.P,B.a_)
 l=A.Jx(r.c)
-q=A.ql(B.bO,A.b([o,n,B.Bk,A.eA(A.cw(A.dY(A.b([B.c5,s,B.MX,A.dY(A.b([m,B.c5,A.hT(A.b([B.yo,B.MU,B.MS,A.cw(A.c4(B.d.l8(B.e.k(A.cv(l)),2,"0")+"-"+B.d.l8(B.e.k(A.br(l)),2,"0")+"-"+B.e.k(A.b1(l)),k,k,k,k,k,k),k,k)],q),B.W,B.P,B.a_)],q),B.W,B.P,B.a_)],q),B.W,B.P,B.a_),465,325),k,k)],q),B.L,B.c6)
+q=A.ql(B.bO,A.b([o,n,B.Bk,A.eA(A.cw(A.dY(A.b([B.c5,s,B.MX,A.dY(A.b([m,B.c5,A.hT(A.b([B.yo,B.MW,B.MS,A.cw(A.c4(B.d.l8(B.e.k(A.cv(l)),2,"0")+"-"+B.d.l8(B.e.k(A.br(l)),2,"0")+"-"+B.e.k(A.b1(l)),k,k,k,k,k,k),k,k)],q),B.W,B.P,B.a_)],q),B.W,B.P,B.a_)],q),B.W,B.P,B.a_),465,325),k,k)],q),B.L,B.c6)
 return A.awb(p,k,q,!0,this.b.a.c.a.b==="admin@test.dk"?A.aAf(B.yT,new A.amh(a)):k,B.lN)}else return B.lS}},
 $S:117}
 A.amg.prototype={
@@ -92120,8 +92120,8 @@ B.Be=new A.IC(0,"pixel")
 B.Bf=new A.IC(1,"viewport")
 B.Bj=new A.xA(null,null,null,null,null,null,null)
 B.zD=new A.wX(null)
-B.MV=new A.es(325,465,B.zD,null)
-B.Bk=new A.hK(B.F,null,null,B.MV,null)
+B.MU=new A.es(325,465,B.zD,null)
+B.Bk=new A.hK(B.F,null,null,B.MU,null)
 B.VS=new A.ai2(0,"material")
 B.Bn=new A.rs(null,null,null,null,null,null,null)
 B.lS=new A.hK(B.F,null,null,B.Bn,null)
@@ -92689,10 +92689,10 @@ B.Uy=new A.lY(8,0.12)
 B.Uz=new A.lY(12,0.14)
 B.np=A.b(s([B.Uw,B.UB,B.UA,B.Ux,B.Uy,B.Uz]),A.ab("z<lY>"))
 B.c9=new A.iU(2,"center")
-B.Sp=new A.dB("New \n Gold Card Holder",null,null,B.c9,null,null,null,null,null)
-B.Sr=new A.dB("Edit \n Gold Card Holder",null,null,B.c9,null,null,null,null,null)
+B.So=new A.dB("New \n Gold Card Holder",null,null,B.c9,null,null,null,null,null)
+B.Sq=new A.dB("Edit \n Gold Card Holder",null,null,B.c9,null,null,null,null,null)
 B.Su=new A.dB("Discount Info",null,null,B.c9,null,null,null,null,null)
-B.G4=A.b(s([B.Sp,B.Sr,B.Su]),t.p)
+B.G4=A.b(s([B.So,B.Sq,B.Su]),t.p)
 B.G5=A.b(s([0,0,32722,12287,65534,34815,65534,18431]),t.t)
 B.G6=A.b(s([0,10,20,30,40,50,60,70,80,90,95,99,100]),t.t)
 B.j8=new A.hN(0)
@@ -94085,10 +94085,10 @@ B.MR=new A.es(20,null,null,null)
 B.MS=new A.es(39,null,null,null)
 B.yo=new A.es(40,null,null,null)
 B.MT=new A.es(65,null,null,null)
-B.So=new A.dB("Experation Date:",null,null,null,null,null,null,null,null)
-B.MU=new A.es(null,null,B.So,null)
 B.Sn=new A.dB("Card Holder:",null,null,null,null,null,null,null,null)
-B.MW=new A.es(null,null,B.Sn,null)
+B.MV=new A.es(null,null,B.Sn,null)
+B.Sr=new A.dB("Expiration Date:",null,null,null,null,null,null,null,null)
+B.MW=new A.es(null,null,B.Sr,null)
 B.yp=new A.es(null,16,null,null)
 B.c5=new A.es(null,20,null,null)
 B.MX=new A.es(null,320,null,null)
@@ -94111,8 +94111,8 @@ B.fn=new A.aS(4e6)
 B.N6=new A.k5(B.Ss,null,null,null,null,null,null,null,null,null,null,null,B.fn,null,null,B.dR,B.L,null)
 B.Sm=new A.dB("Network error, restart",null,null,null,null,null,null,null,null)
 B.N7=new A.k5(B.Sm,null,null,null,null,null,null,null,null,null,null,null,B.fn,null,null,B.dR,B.L,null)
-B.Sq=new A.dB("User Already Exists",null,null,null,null,null,null,null,null)
-B.N8=new A.k5(B.Sq,null,null,null,null,null,null,null,null,null,null,null,B.fn,null,null,B.dR,B.L,null)
+B.Sp=new A.dB("User Already Exists",null,null,null,null,null,null,null,null)
+B.N8=new A.k5(B.Sp,null,null,null,null,null,null,null,null,null,null,null,B.fn,null,null,B.dR,B.L,null)
 B.Sw=new A.dB("New User Created",null,null,null,null,null,null,null,null)
 B.N9=new A.k5(B.Sw,null,null,null,null,null,null,null,null,null,null,null,B.fn,null,null,B.dR,B.L,null)
 B.yv=new A.Pd(0,"permissive")
